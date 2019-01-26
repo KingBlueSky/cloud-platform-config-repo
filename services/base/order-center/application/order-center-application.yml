@@ -20,7 +20,7 @@ spring:
         pool-prepared-statements: ${common.delivery.datasource.pool-prepared-statements}
         max-pool-prepared-statement-per-connection-size: ${common.delivery.datasource.max-pool-prepared-statement-per-connection-size}
         connection-properties: ${common.delivery.datasource.connection-properties}
-        filters: ${common.delivery.datasource.filters}
+#        filters: ${common.delivery.datasource.filters}
     rabbitmq:
         host: ${rabbitmq.host}
         port: ${rabbitmq.port}
