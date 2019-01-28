@@ -27,12 +27,12 @@ spring:
           connection-properties: ${common.delivery.datasource.connection-properties}
          # filters: ${common.delivery.datasource.filters}
 
-    rabbitmq:
-        host: ${rabbitmq.host}
-        port: ${rabbitmq.port}
-        username: ${rabbitmq.username}
-        password: ${rabbitmq.password}
-        virtual-host: ${rabbitmq.virtual-host}
+#    rabbitmq:
+#        host: ${rabbitmq.host}
+#        port: ${rabbitmq.port}
+#        username: ${rabbitmq.username}
+#        password: ${rabbitmq.password}
+#        virtual-host: ${rabbitmq.virtual-host}
     redis:
         sentinel:
             master: ${spring.redis.sentinel.master}
